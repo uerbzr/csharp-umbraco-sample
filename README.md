@@ -6,7 +6,7 @@ Umbraco site setup
 
 - To run:
 
-  - dotnet run --project "workshop.wwwsite
+  - dotnet run --project "workshop.wwwsite"
   - or open in Visual Studio and Run..
 
 - Built using:

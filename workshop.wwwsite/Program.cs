@@ -9,7 +9,7 @@ builder.CreateUmbracoBuilder()
 WebApplication app = builder.Build();
 
 await app.BootUmbracoAsync();
-
+app.MapGet("/cars", () => new { Cars = new[] { "Car1", "Car2", "Car3" } });
 
 app.UseUmbraco()
     .WithMiddleware(u =>
